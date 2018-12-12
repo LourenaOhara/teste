@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="processo.IncluirEmpresa"/>
+      <class name="abrirTelas.AbrirTelasDadosBasicos"/>
+      <class name="processo.IncluirSeparador"/>
+      <class name="fluxo.Fiocruz"/>
+      <class name="cadastro.PessoaFisica"/>
+      <class name="abrirTelas.AbrirTelasGerencial"/>
+      <class name="processo.Reendereçamento"/>
+      <class name="cadastro.ImprimirEmLote"/>
+      <class name="cadastro.Contratos"/>
+      <class name="processo.InserirUnidadeMedida"/>
+      <class name="abrirTelas.AbrirTelasSeguranca"/>
+      <class name="fluxo.EmtelSimples"/>
+      <class name="processo.PesquisaProdutoSerial"/>
+      <class name="processo.ConfereEstoque"/>
+      <class name="cadastro.Responsavel"/>
+      <class name="fluxo.CabtecComSerial"/>
+      <class name="abrirTelas.AbrirTelasRelatorios"/>
+      <class name="cadastro.CentroCusto"/>
+      <class name="abrirTelas.AbrirTelasConfirmacao"/>
+      <class name="abrirTelas.AbrirTelasFerramentas"/>
+      <class name="abrirTelas.AbrirTelasDashboard"/>
+      <class name="cadastro.ImprimirEtiqueta"/>
+      <class name="abrirTelas.AbrirTelasSuporte"/>
+      <class name="processo.InserirSerialPatrimonial"/>
+      <class name="fluxo.Cabtec"/>
+      <class name="cadastro.AssociarAProduto"/>
+      <class name="cadastro.PessoaJuridica"/>
+      <class name="fluxo.EmtelMesclado"/>
+      <class name="abrirTelas.AbrirTelasConfiguracao"/>
+      <class name="cadastro.Fabricantes"/>
+      <class name="abrirTelas.AbrirTelasOperacao"/>
+      <class name="cadastro.AssociarEPC"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
